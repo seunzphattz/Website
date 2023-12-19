@@ -1,0 +1,99 @@
+table,  tr, th, td  {
+  border: 1px solid black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 1px;
+}
+
+header {
+
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  padding: 20px 0px;
+  background-color:rgb(6, 6, 79);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  z-index: 99;
+  
+
+
+}
+.h1 {
+  font-size: 2em;
+  color: white;
+  margin-left: 60px;
+  
+}
+nav {
+  
+  margin-right: 100px;
+  margin-left: 40px;
+  position: relative;
+}
+a {
+  margin-left: 40px;
+}
+body {
+  background: url(data3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 2000px;
+}
+
+.div {
+  position: fixed;
+  top: 200px;
+  left: 0px;
+  right: 50px;
+  width: 100%;
+  padding-left: 100px;
+}
+
+.arrange {
+  position: fixed;
+  top: 500px;
+  left: 0px;
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color:rgb(6, 6, 79);
+  color: white;
+  text-align: center;
+  height: 800px;
+  margin-bottom: 100px;
+}
+.meaning {
+  font-size: 50px;
+  color: azure;
+  padding-right: 10px;
+  
+}
+.cool {
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+.button {
+  margin-left: 30px;
+  border-width: 2px;
+  border-radius: 3px;
+  width: 90px;
+  height: 40px;
+
+}
+.browse {
+  background-color: red;
+  height: 40px;
+
+ 
+  border-radius:10px;
+}
+
+.browse:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  
+}
